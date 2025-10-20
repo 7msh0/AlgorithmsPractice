@@ -12,7 +12,7 @@ def binary_search(arr, target):
 
 def main():
     data = [1, 3, 5, 7, 9, 11, 13, 15]
-    target = 9
+    target = 11
     result = binary_search(data, target)
     if result != -1:
         print(f"Found {target} at index {result}")
